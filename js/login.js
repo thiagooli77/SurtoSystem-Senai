@@ -4,7 +4,7 @@
 function $id(id) { return document.getElementById(id); }
 function safeHtml(el, html) { if (el) el.innerHTML = html; else console.warn('Mensagem:', html); }
 
-const loginForm = $id('loginForm');
+const loginForm = $id('login');
 const registerForm = $id('registerForm');
 const messageArea = $id('messageArea');
 const toRegister = $id('toRegister');

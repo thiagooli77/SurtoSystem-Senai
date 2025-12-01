@@ -4,8 +4,8 @@
     --azul-petroleo: #457B9D;
     --azul-escuro: #1D3557;
     --background: rgba(0, 0, 0, 0.55);
-    --background-login: rgba(0, 0, 0, 0.35);
-    --texto: #F1FAEE;
+    --background-login: rgba(255, 255, 255, 0.075);
+    --texto: #ffffff;
 }
 
 * {
@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&w=1400&q=60');
+    background: url(/img/backgroundlogin2.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -70,6 +70,7 @@ label {
     display: block;
     margin-bottom: 5px;
     color: var(--texto);
+    font-weight: bolder;
 }
 
 .divinput{
@@ -87,7 +88,7 @@ input {
 }
 
 #logo{
-    width: 65%;
+    width: 95%;
 }
 
 .logbut {
