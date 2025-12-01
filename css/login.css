@@ -255,5 +255,22 @@ footer {
     display: none
   }
 
+  .logo-img {
+  display: flex;
+  position: fixed;
+  top: 0px; /* Move para perto do topo */
+  width: 750px;
+  height: auto;
+  object-fit: contain; /* Evita distorção da imagem */
+  /* background-color: rgba(255, 255, 255, 0.3); Fundo branco com 30% de transparência */
+  padding: 1rem; /* Adiciona um espaçamento interno */
+  border-radius: 12px; /* Bordas arredondadas */
+  z-index: 1; /* Posiciona o logo atrás do container */
+  transform: translateY(-130%);
+  /* transform: translateX(50%); */
+  margin-left: 0px;
+  scale: 0.3;
+}
+
 }
 
