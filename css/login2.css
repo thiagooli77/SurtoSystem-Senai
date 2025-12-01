@@ -21,7 +21,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/img/backgroundlogin2.jpg);
+    background: linear-gradient(35deg, rgb(0, 153, 255), rgb(18, 255, 243), rgb(21, 228, 255));
+    border: 1px solid rgb(37, 37, 37);
     background-size: cover;
     background-position: center;
     position: relative;
